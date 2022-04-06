@@ -1,0 +1,126 @@
+/* Media Queries Normal Screen Devices */
+@media(min-width: 769px) and (max-width: 1486px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .logo {
+    padding-left: 20px;
+  }
+
+  .nav-links li a {
+    margin: 0 45px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    padding-top: 60px;
+    font-size: 2.25rem;
+  }
+  
+  .hero-content p {
+    font-size: 2.25rem;
+    margin-top: 8px;
+  }
+
+  .work {
+    padding: 20px;
+  }
+  
+  h2.h-text {
+    font-size: 2rem;
+    padding-top: 60px;
+  }
+
+  .card-content {
+    padding: 32px;
+  }
+
+  .connect {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    padding-top: 60px;
+  }
+  
+  .socials {
+    padding: 20px;
+    text-align: center;
+    margin-top: 48px;
+  }
+  
+  h4 {
+    font-size: 2rem;
+    margin-bottom: 48px;
+  }
+  
+  .social-icons a i {
+    margin-left: 24px;
+  }
+
+  .h-text {
+    font-size: 2rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-content p {
+    padding: 10px;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 60px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+  
+  .content-h {
+    margin-block: 24px;
+  }
+  
+  .content-1, .content-2, .content-3 {
+    margin-bottom: 36px;
+  }
+  
+  .content-r {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .content-r p {
+    display: inline;
+  }
+  
+  .content-r img {
+    color: #333;
+    margin-left: 10px;
+  }
+}

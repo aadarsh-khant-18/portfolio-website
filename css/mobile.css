@@ -1,0 +1,138 @@
+/* Media Queries Mobile Devices */
+@media(min-width: 347px) and (max-width: 767px) {
+  .navbar {
+    padding: 16px;
+  }
+
+  .logo {
+    /* padding-left: 8px; */
+    transform: scale(0.8);
+  }
+
+  .nav-links li a {
+    margin: 0 12px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 16px;
+  }
+  
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(0.92);
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    padding-top: 40px;
+    font-size: 2.125rem;
+  }
+  
+  .hero-content p {
+    font-size: 2.125rem;
+  }
+
+  .work {
+    padding: 16px;
+  }
+  
+  h2.h-text {
+    font-size: 2rem;
+    padding-top: 60px;
+  }
+  
+  .card-content {
+    padding: 32px;
+  }
+
+  .project-description {
+    text-align: justify;
+  }
+
+  .connect {
+    padding: 12px;
+    text-align: center;
+  }
+
+  a.connect-mail {
+    font-size: 1.625rem;
+    text-align: center;
+  }
+  
+  h3 {
+    padding-top: 60px;
+  }
+  
+  /* Social Section */
+  .socials {
+    padding: 16px;
+    text-align: center;
+    margin-top: 48px;
+  }
+  
+  h4 {
+    font-size: 2rem;
+    margin-bottom: 48px;
+  }
+  
+  .social-icons a i {
+    margin-left: 18px;
+  }
+
+  .h-text {
+    font-size: 2rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .footer-content p {
+    padding: 10px;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 60px 16px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+  
+  .content-h {
+    margin-block: 24px;
+  }
+  
+  .content-1, .content-2, .content-3 {
+    text-align: justify;
+    margin-bottom: 36px;
+  }
+  
+  .content-r {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .content-r p {
+    display: inline;
+  }
+  
+  .content-r img {
+    color: #333;
+    margin-left: 10px;
+  }
+}
