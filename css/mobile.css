@@ -1,5 +1,9 @@
 /* Media Queries Mobile Devices */
 @media(min-width: 347px) and (max-width: 767px) {
+  html, body {
+    scroll-behavior: smooth;
+  }
+  
   .navbar {
     padding: 16px;
   }
@@ -38,6 +42,7 @@
   }
   
   .hero-content p {
+    margin-top: 0px;
     font-size: 2.125rem;
   }
 
@@ -45,9 +50,10 @@
     padding: 16px;
   }
   
-  h2.h-text {
+  h2 {
     font-size: 2rem;
-    padding-top: 60px;
+    padding-top: 60px !important;
+    margin-bottom: 48px;
   }
   
   .card-content {

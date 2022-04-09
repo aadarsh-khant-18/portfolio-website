@@ -8,7 +8,7 @@
 
 html, body {
   scroll-behavior: smooth;
-  background-color: #f7f7f7; 
+  background-color: #f7f7f7;
 }
 
 /* Scroll Bar */
@@ -104,7 +104,7 @@ html, body {
   justify-content: space-between;
   height: 10vh;
   width: 100%;
-  padding: 30px 120px;
+  padding: 0px 120px;
 }
 
 .nav-links {
@@ -112,7 +112,6 @@ html, body {
   font-family: 'Satoshi-Regular';
   font-weight: 400;
   font-size: 1.25rem;
-  
 }
 
 .nav-links li {
@@ -124,10 +123,6 @@ html, body {
   color: #333;
   text-decoration: none;
   margin: 0 45px;
-}
-
-.nav-links li a:hover {
-  color: #333;
 }
 
 .nav-links li a::before {
@@ -149,11 +144,10 @@ html, body {
 }
 
 /* Hero Section */
-
 .hero {
   display: flex;
   padding: 0px 72px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .hero-img {
@@ -212,10 +206,10 @@ h2 {
   margin-block: 40px;
 }
 
-.card:nth-child(1) a {
+/* .card:nth-child(1) a {
   color: #999;
   cursor: not-allowed;
-}
+} */
 
 .card:hover {
   box-shadow: none;
@@ -308,7 +302,6 @@ h3 {
   font-family: 'Satoshi-Medium';
   font-weight: 500;
   font-size: 1.875rem;
-  /* margin-top: 72px; */
 }
 
 .connect-content {
