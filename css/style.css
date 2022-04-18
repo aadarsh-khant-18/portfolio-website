@@ -1,4 +1,4 @@
-@import url('satoshi.css');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -46,13 +46,14 @@ html, body {
 /* Utilities */
 
 .text-bold {
-  font-family: 'Satoshi-Bold';
-  font-weight: 500;
+  font-family: 'Manrope', sans-serif;
+  font-size: bold;
+  font-weight: 700;
 }
 
 .h-text {
   color: #333;
-  font-family: 'Satoshi-Medium';
+  font-family: 'Manrope', sans-serif;
   font-weight: 500; 
   font-size: 2.25rem;
 }
@@ -109,7 +110,7 @@ html, body {
 
 .nav-links {
   display: flex;
-  font-family: 'Satoshi-Regular';
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
 }
@@ -166,14 +167,14 @@ html, body {
 
 .hero-content h1 {
   color: #333;
-  font-family: 'Satoshi-Regular';
+  font-family: 'Manrope', sans-serif;
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .hero-content p {
   color: #333;
-  font-family: 'Satoshi-Regular';
+  font-family: 'Manrope', sans-serif;
   font-size: 2.5rem;
   margin-top: 16px;
 }
@@ -186,7 +187,7 @@ html, body {
 
 h2 {
   color: #333;
-  font-family: 'Satoshi-Medium';
+  font-family: 'Manrope', sans-serif;
   font-weight: 500; 
   font-size: 2.25rem;
   margin-bottom: 72px;
@@ -228,16 +229,16 @@ h2 {
 
 .project-title {
   color: #333;
-  font-family: 'Satoshi-Bold';
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   font-size: 1.75rem;
 }
 
 .project-description {
   color: #333;
-  font-family: 'Satoshi-Medium';
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.125rem;
   margin-top: 24px;
   letter-spacing: 0.006rem;
@@ -246,7 +247,7 @@ h2 {
 
 .project-time {
   color: #333;
-  font-family: 'Satoshi-Regular';
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
   margin: 24px 0 32px 0;
@@ -254,7 +255,8 @@ h2 {
 
 .btn {
   font-size: 1.25rem;
-  font-family: 'Satoshi-Medium';
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
   color: #333;
 }
 
@@ -299,14 +301,14 @@ a.btn:hover::before {
 
 h3 {
   color: #333;
-  font-family: 'Satoshi-Medium';
+  font-family: 'Manrope', sans-serif;
   font-weight: 500;
   font-size: 1.875rem;
 }
 
 .connect-content {
   color: #333;
-  font-family: 'Satoshi-Regular';
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   margin-top: 48px;
@@ -314,7 +316,8 @@ h3 {
 }
 
 a.connect-mail {
-  font-family: 'Satoshi-Bold';
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
   font-size: 1.625rem;
   text-decoration: none;
 }
@@ -357,7 +360,7 @@ a.connect-mail:hover::before {
 
 h4 {
   color: #333;
-  font-family: 'Satoshi-Medium';
+  font-family: 'Manrope', sans-serif;
   font-weight: 500;
   font-size: 1.875rem;
   margin-bottom: 48px;
@@ -393,7 +396,7 @@ h4 {
 
 .about-content {
   max-width: 793px;
-  font-family: 'Satoshi-Regular';
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 0.01875rem;
@@ -459,7 +462,7 @@ footer {
 }
 
 .footer-content p {
-  font-family: 'Satoshi-Medium';
+  font-family: 'Manrope', sans-serif;;
   font-size: 1.125rem;
   font-weight: 500;
 }
