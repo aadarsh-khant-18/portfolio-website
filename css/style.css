@@ -375,9 +375,47 @@ h4 {
   margin-left: 32px;
 }
 
-.social-icons a i:hover {
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.medium:hover {
+  color: #00ab6c;
+}
+
+.instagram:hover {
+  background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.github:hover {
   color: #777;
 }
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+/* .social-icons a i:nth-child(1):hover {
+  color: #0077b5;
+}
+
+.social-icons a i:nth-child(2):hover {
+  color: #00ab6c;
+}
+
+.social-icons a i:nth-child(3):hover {
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+} */
+
+
+
+/* .social-icons a i:hover {
+  color: #777;
+} */
 
 /* About Section */
 
